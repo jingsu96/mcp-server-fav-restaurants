@@ -29,6 +29,6 @@ pnpm build && pnpm start
 After adding above to your MCP Server config, you should see the fav restaurants MCP shows up in your Resource
 
 
-[!MCP](https://imgs.jinghuangsu.com/images/AI/mcp/fav-restaurants/mcp-1.png)
+![MCP](https://imgs.jinghuangsu.com/images/AI/mcp/fav-restaurants/mcp.png)
 
-[!MCP](https://imgs.jinghuangsu.com/images/AI/mcp/fav-restaurants/mcp-2.png)
+![MCP-2](https://imgs.jinghuangsu.com/images/AI/mcp/fav-restaurants/mcp-2.png)
