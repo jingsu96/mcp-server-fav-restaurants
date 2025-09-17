@@ -1,0 +1,40 @@
+{
+  "name": "mcp-server-fav-restaurants",
+  "version": "1.0.0",
+  "description": "MPC server with my fav restaurants in the UK showcasing use of MCP resources and prompts",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-server-fav-restaurants": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "restaurants"
+  ],
+  "author": "JingHuang Su",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "@types/node": "^24.5.1",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^9.35.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
